@@ -1,5 +1,5 @@
 ---
-name: lovstudio:any2deck
+name: lovstudio-any2deck
 category: Document Conversion
 tagline: "Content → slide deck images with 16 visual styles, PPTX/PDF export, branding overlay."
 description: >
