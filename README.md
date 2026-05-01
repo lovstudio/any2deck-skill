@@ -1,4 +1,4 @@
-# lovstudio:any2deck
+# lovstudio-any2deck
 
 Transform content into professional slide deck images. Creates outlines with style instructions, generates individual slide images, and merges into PPTX/PDF. Supports 16 visual styles, CJK/Latin mixed text, dual-logo branding, and partial regeneration.
 
@@ -9,7 +9,7 @@ Part of [lovstudio/skills](https://github.com/lovstudio/skills) &mdash; by [lovs
 ## Install
 
 ```bash
-npx skills add lovstudio/skills --skill lovstudio:any2deck
+npx lovstudio skills add any2deck -g -y
 ```
 
 Requires: Image generation skill + Node.js (for PPTX/PDF) + Python 3.8+ (for branding)
