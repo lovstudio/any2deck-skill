@@ -15,7 +15,7 @@ compatibility: >
   Python 3.8+ for branding overlay. Cross-platform: macOS, Windows, Linux.
 metadata:
   author: lovstudio
-  version: "1.0.0"
+  version: "1.0.1"
   tags: slide deck presentation pptx pdf image generation
 ---
 
