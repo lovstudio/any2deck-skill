@@ -1,6 +1,6 @@
 # PPT 大师 · PPT Master
 
-![Version](https://img.shields.io/badge/version-1.2.0-CC785C)
+![Version](https://img.shields.io/badge/version-1.2.1-CC785C)
 
 Transform content into professional slide deck images. Creates outlines with style instructions, generates individual slide images, and merges into PPTX/PDF. Supports 17 visual styles (including the editable one-ink `mono` PPTX mode), CJK/Latin mixed text, dual-logo branding, and partial regeneration.
 

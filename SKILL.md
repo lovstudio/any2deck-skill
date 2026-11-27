@@ -1,14 +1,8 @@
 ---
 name: lov-any2deck
-category: Document Conversion
-tagline: "Content → slide decks with 17 visual styles (incl. editable mono PPTX), PPTX/PDF export, branding overlay."
 description: >
-  Generate professional slide deck images from content (Markdown, text, URLs).
-  Creates outlines with style instructions, then generates individual slide images.
-  Supports 17 visual styles (incl. an editable one-ink `mono` PPTX mode for Chinese talks),
-  CJK/Latin mixed text, branding overlays, and PPTX/PDF export. Use when the user asks to "create slides", "make a presentation",
-  "generate deck", "slide deck", "PPT", "做PPT", "生成幻灯片", "制作演示文稿",
-  or wants to turn content into a visual slide deck.
+  Turn Markdown, text or URLs into slide decks in 17 styles, as AI slide images
+  or an editable one-ink mono PPTX. Use when the user asks to "做PPT" or "生成幻灯片".
 license: MIT
 compatibility: >
   Requires an image generation skill (e.g. image-gen) and Node.js for PPTX/PDF merge.
@@ -18,13 +12,32 @@ depends_on:
   - lov-branding-consistency
 metadata:
   author: contributors
-  version: "1.2.0"
-  tags: slide deck presentation pptx pdf image generation
+  version: "1.2.1"
+  tags:
+    - slide-deck
+    - presentation
+    - pptx
+    - pdf
+    - image-generation
 ---
 
 # PPT 大师 · PPT Master
 
 Transform content into professional slide deck images.
+
+## Triggers
+
+### Activate when
+
+- 用户说“做PPT”“生成幻灯片”“制作演示文稿”“把这篇文章做成 slides”，或给出内容要求出一份 deck。
+- The user asks to create slides, make a presentation, generate a deck, or restyle an existing deck.
+- 用户点名某个风格（如 `mono`、`sketch-notes`）或要求“可编辑的 PPTX”“会议室投屏用的中文 PPT”。
+
+### Do not activate when
+
+- 只要把 Markdown 转成 PDF 或 Word：交给 `lov-any2pdf` / `lov-any2docx`。
+- 只要一张海报、封面、信息图或单张卡片：交给对应的海报、封面或信息图 Skill。
+- 只改现有 PPTX 里的几处文字或数据，不涉及生成或重排版。
 
 ## Usage
 

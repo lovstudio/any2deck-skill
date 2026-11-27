@@ -3,6 +3,13 @@
 All notable changes to this skill are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: [SemVer](https://semver.org/)
 
+## [1.2.1] - 2026-11-27
+
+### Fixed
+
+- SKILL.md frontmatter 通过发布校验：去掉 `category`、`tagline`，描述压到 200 字以内，`metadata.tags` 改为列表
+- 新增 `## Triggers`，写明触发与不触发的条件
+
 ## [1.2.0] - 2026-11-27
 
 ### Added
